@@ -1,0 +1,15 @@
+.card-container {
+    background: #fff;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+}
+
+.card {
+    background: #010101;
+    height: 30vh;
+    width: 30vh;
+}
