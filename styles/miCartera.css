@@ -1,15 +1,100 @@
-.card-container {
-    background: #fff;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    /* Centra horizontalmente */
-    align-items: center;
-    /* Centra verticalmente */
+.credit-card {
+  width: 60vh;
+  height: 35vh;
+  background-color: rgba(51, 51, 51, 0.5);
+  /* Fondo semi-transparente */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  backdrop-filter: blur(10px);
+  /* Aplica el efecto de desenfoque */
+  display: block;
+  /* Muestra cada tarjeta en una línea nueva */
+  margin-bottom: 20px;
+  /* Agrega un margen inferior para separar las tarjetas */
 }
 
-.card {
-    background: #010101;
-    height: 30vh;
-    width: 30vh;
+
+.card-body {
+  margin-top: -50px;
+  
+}
+
+.card-number {
+  font-size: 18px;
+  letter-spacing: 5px;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.label {
+  font-size: 18px;
+  color: #aaa;
+}
+
+.value {
+  font-size: 15px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  height: 70vh;
+  align-items: center;
+  background-color: #aaaaaa00;
+}
+
+.delete-btn{
+  border: 1px solid #fff;
+  background: #0000;
+  border-radius: 18px;
+  margin-top: 20px;
+  color: #fff;
+  transition: background  0.5s ease;
+}
+
+.delete-btn:hover{
+  color: #fff;
+  background: #D20062;
+  border: none;
+}
+
+.transaction {
+  background-color: #ad88c679;
+  padding: 10px;
+  width: 400px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  backdrop-filter: blur(16px);
+  color: #fff;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.otra-clase {
+  font-weight: bold;
+}
+
+
+.transactions-btn{
+  border: 1px solid #fff;
+  background: #0000;
+  border-radius: 18px;
+  margin-top: 20px;
+  color: #fff;
+  transition: background  0.5s ease;
+}
+
+.transactions-btn:hover{
+  color: #fff;
+  background: #8B93FF;
+  border: none;
 }

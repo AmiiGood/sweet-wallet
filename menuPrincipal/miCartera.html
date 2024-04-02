@@ -31,7 +31,7 @@
                 <li><a href="">Noticias</a></li>
                 <li><a href="">Mi perfil</a></li>
             </ul>
-            <a href="../index.html" class="action-btn">LogOut</a>
+            <a href="../index.html" class="action-btn" onclick="logoutUser()">LogOut</a>
             <div class="toggle-btn">
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -42,18 +42,18 @@
             <li><a href="">Bolsa</a></li>
             <li><a href="">Noticias</a></li>
             <li><a href="">Mi perfil</a></li>
-            <li><a href="../index.html" class="action-btn">LogOut</a></li>
+            <li><a href="../index.html" class="action-btn" onclick="logoutUser()">LogOut</a></li>
         </div>
     </header>
     <div class="container-fluid mt-5">
         <div class="row">
             <div class="col ml-5 card-container">
-                <div class="card">
-                    
-                </div>
+                <div id="cardContainer" class="cardContainer"></div>
             </div>
             <div class="col">
-                all working 2
+                <div class="transaccion-container">
+                    
+                </div>
             </div>
         </div>
     </div>
@@ -64,6 +64,7 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
     <script src="../scripts/menuPrincipal.js"></script>
+    <script src="../scripts/miCartera.js"></script>
 </body>
 
 </html>

@@ -10,3 +10,8 @@ toggleBtn.onclick = function(){
     ? 'fa-solid fa-xmark'
     : 'fa-solid fa-bars'
 }
+
+function logoutUser() {
+    localStorage.removeItem('token');
+    window.location.href = 'index.html';
+  }
