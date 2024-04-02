@@ -47,8 +47,7 @@ async function getInformacion() {
             `;
 
             cardContainer.appendChild(card);
-
-            // Agregar evento click al botón "Transacciones"
+            
             const transactionsBtn = card.querySelector('.transactions-btn');
             transactionsBtn.addEventListener('click', () => {
                 showTransactions(doc.movimientos, transactionContainer);
@@ -60,9 +59,7 @@ async function getInformacion() {
     }
 }
 
-// Función para mostrar las transacciones de una tarjeta
 function showTransactions(movimientos, transactionContainer) {
-    // Limpiar el contenedor de transacciones
     transactionContainer.innerHTML = '';
     
     movimientos.forEach(movimiento => {
