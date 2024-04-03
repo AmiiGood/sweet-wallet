@@ -88,7 +88,6 @@
   border: 1px solid #fff;
   background: #0000;
   border-radius: 18px;
-  margin-top: 20px;
   color: #fff;
   transition: background  0.5s ease;
 }
@@ -97,4 +96,14 @@
   color: #fff;
   background: #8B93FF;
   border: none;
+}
+
+header{
+  position: relative;
+}
+
+.drop-menu{
+  position: absolute;
+  z-index: 999;
+  
 }

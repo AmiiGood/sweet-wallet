@@ -40,7 +40,6 @@ async function getInformacion() {
                                 <span class="value">$${doc.egresos}</span>
                             </div>
                         </div>
-                        <button class="delete-btn btn-block">Eliminar</button>
                         <button class="transactions-btn btn-block">Transacciones</button>
                     </div>
                 </div>

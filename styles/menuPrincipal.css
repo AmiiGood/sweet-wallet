@@ -86,15 +86,16 @@ header {
     top: 60px;
     height: 0;
     width: 300px;
-    background: rgba(255,255,255,0.1);
+    background: rgba(71, 63, 63, 0.605);
     backdrop-filter: blur(18px);
     border-radius: 10px;
     overflow: hidden;
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 99;
 }
 
 .drop-menu.open{
-    height: 240px;
+    height: 300px;
 }
 
 .drop-menu li{
@@ -105,9 +106,23 @@ header {
 }
 
 .drop-menu .action-btn{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    background-color: #051736cc;
+    border: 0.5px solid #FEFBF6;
+    border-radius: 1rem;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+
+.drop-menu .action-btn:hover{
+    background-color: #7743DB;
+    border: none;
+    color: #fff;
 }
 
 
@@ -133,3 +148,4 @@ header {
     }
 
 }
+
