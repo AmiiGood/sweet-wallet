@@ -1,0 +1,28 @@
+.news-container {
+    max-width: 1000px; /* Ajusta este valor al ancho deseado */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 0 20px; /* Añade un espaciado lateral de 20px */
+}
+
+
+.news-item {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+
+img{
+    width: 559px;
+    height: 370px;
+}
+
+table{
+    width: 500px;
+    margin-right: 20px;
+}
+
+.news-container a{
+    color: blue;
+}
