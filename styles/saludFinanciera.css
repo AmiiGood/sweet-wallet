@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.left-section {
+    margin-right: 20px;
+}
+.right-section {
+    margin-left: 20px;
+}
